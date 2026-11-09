@@ -1,0 +1,24 @@
+# Secretos: nunca se suben
+.env
+.env.*
+!.env.example
+*credentials*.json
+*token*.json
+
+# Preferencias personales de cada quien
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Archivos pesados: viven en tu nube (OneDrive, Drive), con el link en el .md
+*.mp4
+*.mov
+*.mp3
+*.m4a
+*.wav
+*.zip
+
+# Basura del sistema
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
